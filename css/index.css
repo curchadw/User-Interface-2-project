@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	/*vertical-align: baseline;*/
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+/* my code*/
+body{
+	width:100%;
+	
+
+}
+/*header */
+#nav-area{
+	text-align: center;
+	vertical-align: top;
+	margin-bottom: 100px;
+}
+#nav-area header li{
+	
+	display: inline-block;
+	margin-right: 40px;
+}
+
+header nav {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+ header img{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/*header nav ul{
+	margin: 10px 20px;
+
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 10px -5px;
+	
+	
+  } */
+
+/*next section*/
+.mantra {
+	display: inline-block;
+	margin-right: 100px;
+	font-size: 60px;
+	line-height: 1;
+}	
+
+.mantra button{
+	color:black;
+	background:white;
+	border: 1px solid black;
+	padding: 5px 30px;
+	font-size:16px;
+
+}
+
+.hero {
+	display: inline-block;
+	
+	
+}
+
+.codepic{
+	display: inline-block;
+	
+	
+	
+	
+}
+
+#next-section{
+	text-align: center;
+	
+}
+
+hr {
+	width: 100%
+}
+
+/*--------------main section-----------------------*/
+.shift {
+	display: inline-block;
+	width: 100%;
+}
+
+section.info-content div{
+	display: inline-block;
+	width: 40%;
+	padding-left: 15%;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+	
+}
+
+.features{
+	margin-right: -100px;
+	margin-left: 75px;
+}
+
+/*------------------Mid-image-------------------*/
+
+.mid-image{
+	text-align: center;
+	width: 100%;
+	margin-bottom: 50px;
+	resize: horizontal;
+}
+
+/*--------Bottom section-------------*/
+section.bottom-sec div{
+	display: inline-block;
+	width: 21%;	
+	box-sizing: border-box;
+	
+	
+}
+
+.bottom-sec{
+	
+	text-align: center;
+}
+
+.services, .product, .vision{
+	text-align: left;
+}
+
+/*********************** Contact section*************************/
+ .contact{
+	 line-height: 1;
+	 margin-left: 18%;
+ }
+
+ .copyright{
+	 text-align: center;
+	 margin-bottom: 15px;
+ }
+
+
+	
+	
